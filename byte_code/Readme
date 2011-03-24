@@ -1,0 +1,19 @@
+make
+hexdump -C HelloWorld.class
+Take note of 0xCAFEBABE
+
+http://en.wikipedia.org/wiki/Java_class_file
+
+
+Doc for 'new operator' byte code '0xbb'
+http://java.sun.com/docs/books/jvms/second_edition/html/Instructions2.doc10.html
+Appears on this line:
+
+000001a0  00 12 bb 00 02 59 12 03  b7 00 04 4c b2 00 05 2b  |.....Y.....L...+|
+
+This is for java virtual machine bytecode
+
+Also:
+http://java.sun.com/docs/books/jvms/second_edition/html/Overview.doc.html#32310
+
+http://en.wikipedia.org/wiki/Turing_machine

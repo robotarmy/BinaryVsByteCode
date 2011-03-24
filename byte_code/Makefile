@@ -1,0 +1,2 @@
+all:
+	javac HelloWorld.java
